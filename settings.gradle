@@ -1,0 +1,10 @@
+include ':infant_logproto'
+project(':infant_logproto').projectDir = new File(settingsDir,'../infant_logproto')
+include ':infant_logclient'
+project(':infant_logclient').projectDir = new File(settingsDir,'../infant_logclient')
+include ':infant_dao_redis'
+project(':infant_dao_redis').projectDir = new File(settingsDir,'../infant_dao_redis')
+include ':infant_dao_mongodb'
+project(':infant_dao_mongodb').projectDir = new File(settingsDir,'../infant_dao_mongodb')
+include ':infant_service_mongodb'
+project(':infant_service_mongodb').projectDir = new File(settingsDir,'../infant_service_mongodb')
